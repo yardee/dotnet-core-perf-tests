@@ -6,37 +6,23 @@ using BenchmarkDotNet.Attributes;
 namespace Benchmarks.Benchmarks
 {
     [MemoryDiagnoser]
-    public class ListingManyValues : BaseBtdbBenchmark
+    public class ListMoreTypes : BaseBtdbBenchmark
     {
-//        [Benchmark]
-//        public IList<Person> ManyValuesListAll()
-//        {
-//            return Benchmark(personTable => personTable.ListById()
-//                .Where(p => p.Country == Country.Czech || p.Country == Country.Germany).ToList());
-//        }
-//
-//        [Benchmark]
-//        public IList<Person> ManyValuesUseKey()
-//        {
-//            return Benchmark(personTable => personTable.ListByCountry(Country.Czech)
-//                .Concat(personTable.ListByCountry(Country.Germany)).ToList());
-//        }
-
-
-        [Params(100, 10000)]
+        [Params(100, 20000)]
         public override int SlovakiaTotal { get; set; }
 
         [Benchmark]
-        public IList<Person> SmallNumberOfValuesUseKey()
+        public IList<Person> ListAllAndLinq()
         {
-            return Benchmark(personTable => personTable.ListByCountry(Country.Slovakia).ToList());
+            return Benchmark(personTable => personTable.ListById()
+                .Where(p => p.Country == Country.Czech || p.Country == Country.Germany).ToList());
         }
 
         [Benchmark]
-        public IList<Person> SmallNumberOfValuesListAll()
+        public IList<Person> UseKeyAndConcat()
         {
-            return Benchmark(personTable =>
-                personTable.ListById().Where(p => p.Country == Country.Slovakia).ToList());
+            return Benchmark(personTable => personTable.ListByCountry(Country.Czech)
+                .Concat(personTable.ListByCountry(Country.Germany)).ToList());
         }
     }
 }

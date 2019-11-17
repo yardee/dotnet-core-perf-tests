@@ -1,7 +1,7 @@
 ﻿namespace Benchmarks
 {
-    public enum Nationality
+    public enum Country
     {
-        Czech, German, Dutch, Slovakia
+        Czech, Germany, Poland, Slovakia, Hungary 
     }
 }

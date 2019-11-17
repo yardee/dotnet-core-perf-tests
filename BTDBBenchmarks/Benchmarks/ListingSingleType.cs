@@ -6,34 +6,19 @@ using BenchmarkDotNet.Attributes;
 namespace Benchmarks.Benchmarks
 {
     [MemoryDiagnoser]
-    public class ListingManyValues : BaseBtdbBenchmark
+    public class ListingSingleType : BaseBtdbBenchmark
     {
-//        [Benchmark]
-//        public IList<Person> ManyValuesListAll()
-//        {
-//            return Benchmark(personTable => personTable.ListById()
-//                .Where(p => p.Country == Country.Czech || p.Country == Country.Germany).ToList());
-//        }
-//
-//        [Benchmark]
-//        public IList<Person> ManyValuesUseKey()
-//        {
-//            return Benchmark(personTable => personTable.ListByCountry(Country.Czech)
-//                .Concat(personTable.ListByCountry(Country.Germany)).ToList());
-//        }
-
-
-        [Params(100, 10000)]
+        [Params(100, 20000)]
         public override int SlovakiaTotal { get; set; }
 
         [Benchmark]
-        public IList<Person> SmallNumberOfValuesUseKey()
+        public IList<Person> UseKey()
         {
             return Benchmark(personTable => personTable.ListByCountry(Country.Slovakia).ToList());
         }
 
         [Benchmark]
-        public IList<Person> SmallNumberOfValuesListAll()
+        public IList<Person> ListAllAndConcat()
         {
             return Benchmark(personTable =>
                 personTable.ListById().Where(p => p.Country == Country.Slovakia).ToList());
