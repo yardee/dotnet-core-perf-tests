@@ -2,6 +2,6 @@
 {
     public enum Country
     {
-        Czech, Germany, Poland, Slovakia, Hungary 
+        Czech, Germany, Poland, Slovakia 
     }
 }

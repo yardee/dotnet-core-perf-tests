@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Repos\demos\DotNetCorePerf" t="IncludeFlat">
+    <e p="C:\Repos\dotnet-core-perf-tests" t="IncludeFlat">
       <e p="BTDBBenchmarks" t="IncludeRecursive">
         <e p="Benchmarks" t="Include">
-          <e p="BaseBtdbBenchmark.cs" t="Include" />
-          <e p="ListingMoreTypes.cs" t="Include" />
-          <e p="ListingSingleType.cs" t="Include" />
-          <e p="SingleValue.cs" t="Include" />
+          <e p="Listing.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="BTDBBenchmarks.csproj" t="IncludeRecursive" />
@@ -28,7 +25,7 @@
       <e p="DotNetCorePerf.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Admin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Admin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DotNetCorePerf.-603202614.00" t="ExcludeRecursive" />
+    <e p="C:\Users\m.base\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\m.base\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DotNetCorePerf.-1773903136.00" t="ExcludeRecursive" />
   </component>
 </project>

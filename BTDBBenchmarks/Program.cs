@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
+using Benchmarks.Benchmarks;
 using Benchmarks.Tables;
 using BTDB.KVDBLayer;
 using BTDB.ODBLayer;

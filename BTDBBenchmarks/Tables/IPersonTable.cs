@@ -8,5 +8,6 @@ namespace Benchmarks.Tables
         IEnumerable<Person> ListById();
         IEnumerable<Person> ListByCountry(Country country);
         Person FindById(ulong id);
+        ulong CountByCountry(Country country);
     }
 }
