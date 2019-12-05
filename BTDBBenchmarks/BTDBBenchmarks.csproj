@@ -8,7 +8,10 @@
 
     <ItemGroup>
       <PackageReference Include="BenchmarkDotNet" Version="0.12.0" />
-      <PackageReference Include="BTDB" Version="19.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BTDB\BTDB\BTDB.csproj" />
     </ItemGroup>
 
 </Project>

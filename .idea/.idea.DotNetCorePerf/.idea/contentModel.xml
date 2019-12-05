@@ -2,6 +2,483 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Repos\dotnet-core-perf-tests" t="IncludeFlat">
+      <e p="BTDB\BTDB" t="IncludeRecursive">
+        <e p="Allocators" t="Include">
+          <e p="HGlobalAllocator.cs" t="Include" />
+          <e p="IOffHeapAllocator.cs" t="Include" />
+          <e p="LeakDetectorWrapperAllocator.cs" t="Include" />
+          <e p="MallocAllocator.cs" t="Include" />
+        </e>
+        <e p="ARTLib" t="Include">
+          <e p="ARTImpl12.cs" t="Include" />
+          <e p="ARTImplV.cs" t="Include" />
+          <e p="ArtNodeInfo.cs" t="Include" />
+          <e p="Cursor12.cs" t="Include" />
+          <e p="CursorItem.cs" t="Include" />
+          <e p="CursorV.cs" t="Include" />
+          <e p="ICursor.cs" t="Include" />
+          <e p="IRootNode.cs" t="Include" />
+          <e p="NodeHeader12.cs" t="Include" />
+          <e p="NodeHeaderV.cs" t="Include" />
+          <e p="NodeType12.cs" t="Include" />
+          <e p="NodeTypeV.cs" t="Include" />
+          <e p="NodeUtils12.cs" t="Include" />
+          <e p="NodeUtilsV.cs" t="Include" />
+          <e p="RootNode12.cs" t="Include" />
+          <e p="RootNodeV.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BTDB.csproj" t="IncludeRecursive" />
+        <e p="BTreeLib" t="Include">
+          <e p="BTreeImpl12.cs" t="Include" />
+          <e p="Cursor12.cs" t="Include" />
+          <e p="CursorItem.cs" t="Include" />
+          <e p="ICursor.cs" t="Include" />
+          <e p="IRootNode.cs" t="Include" />
+          <e p="NodeHeader12.cs" t="Include" />
+          <e p="NodeType12.cs" t="Include" />
+          <e p="NodeTypeV.cs" t="Include" />
+          <e p="NodeUtils12.cs" t="Include" />
+          <e p="RootNode12.cs" t="Include" />
+          <e p="ValueReplacerCtx.cs" t="Include" />
+        </e>
+        <e p="Buffer" t="Include">
+          <e p="BitArrayManipulation.cs" t="Include" />
+          <e p="ByteBuffer.cs" t="Include" />
+          <e p="ByteStructs.cs" t="Include" />
+          <e p="Checksum.cs" t="Include" />
+          <e p="Int32SingleUnion.cs" t="Include" />
+          <e p="PackUnpack.cs" t="Include" />
+          <e p="TreeNodeUtils.cs" t="Include" />
+        </e>
+        <e p="ChunkCache" t="Include">
+          <e p="DiskChunkCache.cs" t="Include" />
+          <e p="DiskChunkFileType.cs" t="Include" />
+          <e p="FileHashIndex.cs" t="Include" />
+          <e p="FilePureValues.cs" t="Include" />
+          <e p="IChunkCache.cs" t="Include" />
+          <e p="IFileInfo.cs" t="Include" />
+          <e p="UnknownFile.cs" t="Include" />
+        </e>
+        <e p="ChunkedFile" t="Include">
+          <e p="IChunkedFile.cs" t="Include" />
+          <e p="IChunkedFileFactory.cs" t="Include" />
+          <e p="IOptimalLeafChunkSizeDetector.cs" t="Include" />
+        </e>
+        <e p="Collections" t="Include">
+          <e p="Extensions.cs" t="Include" />
+          <e p="HashHelpers.cs" t="Include" />
+          <e p="RefDictionary.cs" t="Include" />
+          <e p="StructList.cs" t="Include" />
+        </e>
+        <e p="DtoChannel" t="Include">
+          <e p="DtoChannel.cs" t="Include" />
+          <e p="IDtoChannel.cs" t="Include" />
+        </e>
+        <e p="EventStore2Layer" t="Include">
+          <e p="DeserializerTypeInfo.cs" t="Include" />
+          <e p="EventDeserializer.cs" t="Include" />
+          <e p="EventSerializer.cs" t="Include" />
+          <e p="IEventDeserializer.cs" t="Include" />
+          <e p="IEventSerializer.cs" t="Include" />
+          <e p="PlaceHolderDescriptor.cs" t="Include" />
+          <e p="SerializerTypeInfo.cs" t="Include" />
+        </e>
+        <e p="EventStoreLayer" t="Include">
+          <e p="AppendingEventStore.cs" t="Include" />
+          <e p="BlockType.cs" t="Include" />
+          <e p="ByteArrayTypeDescriptor.cs" t="Include" />
+          <e p="DictionaryTypeDescriptor.cs" t="Include" />
+          <e p="DictionaryWithDescriptor.cs" t="Include" />
+          <e p="EnumTypeDescriptor.cs" t="Include" />
+          <e p="EventSkippedException.cs" t="Include" />
+          <e p="EventStoreManager.cs" t="Include" />
+          <e p="FullNameTypeMapper.cs" t="Include" />
+          <e p="ICompressionStrategy.cs" t="Include" />
+          <e p="IDescriptorSerializerContext.cs" t="Include" />
+          <e p="IEventFileStorage.cs" t="Include" />
+          <e p="IEventStoreManager.cs" t="Include" />
+          <e p="IEventStoreObserver.cs" t="Include" />
+          <e p="IKnowDescriptor.cs" t="Include" />
+          <e p="InfoForType.cs" t="Include" />
+          <e p="IPersistTypeDescriptor.cs" t="Include" />
+          <e p="IReadEventStore.cs" t="Include" />
+          <e p="ITypeBinaryDeserializerContext.cs" t="Include" />
+          <e p="ITypeBinarySerializerContext.cs" t="Include" />
+          <e p="ITypeDescriptor.cs" t="Include" />
+          <e p="ITypeDescriptorFactory.cs" t="Include" />
+          <e p="ITypeDescriptorMultipleNativeTypes.cs" t="Include" />
+          <e p="ITypeNameMapper.cs" t="Include" />
+          <e p="ITypeNewDescriptorGenerator.cs" t="Include" />
+          <e p="ITypeSerializerMappingFactory.cs" t="Include" />
+          <e p="ITypeSerializers.cs" t="Include" />
+          <e p="ITypeSerializersId2LoaderMapping.cs" t="Include" />
+          <e p="ITypeSerializersLightMapping.cs" t="Include" />
+          <e p="ITypeSerializersMapping.cs" t="Include" />
+          <e p="IWriteEventStore.cs" t="Include" />
+          <e p="ListTypeDescriptor.cs" t="Include" />
+          <e p="ListWithDescriptor.cs" t="Include" />
+          <e p="MemoryEventFileStorage.cs" t="Include" />
+          <e p="NoCompressionStrategy.cs" t="Include" />
+          <e p="NullableTypeDescriptor.cs" t="Include" />
+          <e p="ObjectTypeDescriptor.cs" t="Include" />
+          <e p="OrderedDictionaryWithDescriptor.cs" t="Include" />
+          <e p="ReadOnlyEventStore.cs" t="Include" />
+          <e p="ReadOnlyListArrayWrapper.cs" t="Include" />
+          <e p="SimpleTypeDescriptor.cs" t="Include" />
+          <e p="SkippingEventObserver.cs" t="Include" />
+          <e p="SnappyCompressionStrategy.cs" t="Include" />
+          <e p="StreamEventFileStorage.cs" t="Include" />
+          <e p="TypeCategory.cs" t="Include" />
+          <e p="TypeDescriptorExtensions.cs" t="Include" />
+          <e p="TypeSerializers.cs" t="Include" />
+          <e p="TypeSerializersMapping.cs" t="Include" />
+          <e p="TypeSerializersOptions.cs" t="Include" />
+        </e>
+        <e p="FieldHandler" t="Include">
+          <e p="BasicSerializersFactory.cs" t="Include" />
+          <e p="BinaryCompatibilityOnlyAttribute.cs" t="Include" />
+          <e p="ByteArrayFieldHandler.cs" t="Include" />
+          <e p="ByteArrayLastFieldHandler.cs" t="Include" />
+          <e p="DBIndirect.cs" t="Include" />
+          <e p="DBObjectFieldHandler.cs" t="Include" />
+          <e p="DefaultFieldHandlerFactory.cs" t="Include" />
+          <e p="DefaultTypeConvertorGenerator.cs" t="Include" />
+          <e p="DictionaryFieldHandler.cs" t="Include" />
+          <e p="EnumFieldHandler.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="FieldHandlerOptions.cs" t="Include" />
+          <e p="IFieldHandler.cs" t="Include" />
+          <e p="IFieldHandlerFactory.cs" t="Include" />
+          <e p="IFieldHandlerFactoryProvider.cs" t="Include" />
+          <e p="IFieldHandlerWithInit.cs" t="Include" />
+          <e p="IFieldHandlerWithNestedFieldHandlers.cs" t="Include" />
+          <e p="IIndirect.cs" t="Include" />
+          <e p="IReaderCtx.cs" t="Include" />
+          <e p="ITypeConvertorGenerator.cs" t="Include" />
+          <e p="IWriterCtx.cs" t="Include" />
+          <e p="ListFieldHandler.cs" t="Include" />
+          <e p="NullableFieldHandler.cs" t="Include" />
+          <e p="PersistedNameAttribute.cs" t="Include" />
+          <e p="SignedFieldHandler.cs" t="Include" />
+          <e p="SimpleFieldHandlerBase.cs" t="Include" />
+          <e p="SimpleFieldHandlerJustOrderableBase.cs" t="Include" />
+          <e p="UnsignedFieldHandler.cs" t="Include" />
+        </e>
+        <e p="GlobalSuppressions.cs" t="Include" />
+        <e p="IL" t="Include">
+          <e p="Caching" t="Include">
+            <e p="CachingILBuilder.cs" t="Include" />
+            <e p="CachingILDynamicMethod.cs" t="Include" />
+            <e p="CachingILDynamicMethodWithThis.cs" t="Include" />
+            <e p="CachingILDynamicType.cs" t="Include" />
+            <e p="CachingILGen.cs" t="Include" />
+          </e>
+          <e p="DynamicILDirectoryPath.cs" t="Include" />
+          <e p="EmitHelpers.cs" t="Include" />
+          <e p="IILBuilder.cs" t="Include" />
+          <e p="IILDynamicMethod.cs" t="Include" />
+          <e p="IILDynamicMethodWithThis.cs" t="Include" />
+          <e p="IILDynamicType.cs" t="Include" />
+          <e p="IILEvent.cs" t="Include" />
+          <e p="IIlField.cs" t="Include" />
+          <e p="IILFieldPrivate.cs" t="Include" />
+          <e p="IILGen.cs" t="Include" />
+          <e p="IILGenForbidenInstructions.cs" t="Include" />
+          <e p="IILLabel.cs" t="Include" />
+          <e p="IILLocal.cs" t="Include" />
+          <e p="IILMethod.cs" t="Include" />
+          <e p="IILMethodPrivate.cs" t="Include" />
+          <e p="ILBuilder.cs" t="Include" />
+          <e p="ILBuilderRelease.cs" t="Include" />
+          <e p="ILConstructorImpl.cs" t="Include" />
+          <e p="ILDynamicMethodImpl.cs" t="Include" />
+          <e p="ILDynamicMethodWithThisImpl.cs" t="Include" />
+          <e p="ILDynamicTypeImpl.cs" t="Include" />
+          <e p="ILEventImpl.cs" t="Include" />
+          <e p="ILFieldImpl.cs" t="Include" />
+          <e p="ILGenExtensions.cs" t="Include" />
+          <e p="ILGenForbidenInstructionsCheating.cs" t="Include" />
+          <e p="ILGenForbidenInstructionsGodPowers.cs" t="Include" />
+          <e p="ILGenImpl.cs" t="Include" />
+          <e p="ILMethodImpl.cs" t="Include" />
+        </e>
+        <e p="IOC" t="Include">
+          <e p="AsTraitImpl.cs" t="Include" />
+          <e p="BuildContext.cs" t="Include" />
+          <e p="BuilderExtensions.cs" t="Include" />
+          <e p="ClosureOfObjBuilder.cs" t="Include" />
+          <e p="ConstructorTraitImpl.cs" t="Include" />
+          <e p="ContainerBuilder.cs" t="Include" />
+          <e p="ContainerExtensions.cs" t="Include" />
+          <e p="ContainerImpl.cs" t="Include" />
+          <e p="ContanerRegistrationContext.cs" t="Include" />
+          <e p="CRegs" t="Include">
+            <e p="AlwaysNewImpl.cs" t="Include" />
+            <e p="ArgXImpl.cs" t="Include" />
+            <e p="ContainerInjectImpl.cs" t="Include" />
+            <e p="DelegateImpl.cs" t="Include" />
+            <e p="EmptyEnumerableImpl.cs" t="Include" />
+            <e p="EnumerableImpl.cs" t="Include" />
+            <e p="FactoryImpl.cs" t="Include" />
+            <e p="FactoryWithContainerParamImpl.cs" t="Include" />
+            <e p="InstanceImpl.cs" t="Include" />
+            <e p="InstancesLocalGenCtxHelper.cs" t="Include" />
+            <e p="LazyImpl.cs" t="Include" />
+            <e p="SingletonImpl.cs" t="Include" />
+          </e>
+          <e p="GenerationContext.cs" t="Include" />
+          <e p="IAsLiveScopeConstructorScanTrait.cs" t="Include" />
+          <e p="IAsLiveScopeConstructorTrait.cs" t="Include" />
+          <e p="IAsLiveScopeTrait.cs" t="Include" />
+          <e p="IAsTrait.cs" t="Include" />
+          <e p="IAsTraitImpl.cs" t="Include" />
+          <e p="IBuildContext.cs" t="Include" />
+          <e p="IConstructorTrait.cs" t="Include" />
+          <e p="IConstructorTraitImpl.cs" t="Include" />
+          <e p="IContainer.cs" t="Include" />
+          <e p="IContanerRegistration.cs" t="Include" />
+          <e p="ICReg.cs" t="Include" />
+          <e p="ICRegFuncOptimized.cs" t="Include" />
+          <e p="ICRegILGen.cs" t="Include" />
+          <e p="ICRegMulti.cs" t="Include" />
+          <e p="IGenerationContext.cs" t="Include" />
+          <e p="IGenerationContextSetter.cs" t="Include" />
+          <e p="ILiveScopeTrait.cs" t="Include" />
+          <e p="ILiveScopeTraitImpl.cs" t="Include" />
+          <e p="INeed.cs" t="Include" />
+          <e p="IRegistration.cs" t="Include" />
+          <e p="IScanTrait.cs" t="Include" />
+          <e p="IScanTraitImpl.cs" t="Include" />
+          <e p="KeyAndType.cs" t="Include" />
+          <e p="Lifetime.cs" t="Include" />
+          <e p="LiveScopeTraitImpl.cs" t="Include" />
+          <e p="MultiRegistration.cs" t="Include" />
+          <e p="Need.cs" t="Include" />
+          <e p="NeedKind.cs" t="Include" />
+          <e p="RegistrationBaseImpl.cs" t="Include" />
+          <e p="ScanTraitImpl.cs" t="Include" />
+          <e p="SingleFactoryRegistration.cs" t="Include" />
+          <e p="SingleInstanceRegistration.cs" t="Include" />
+          <e p="SingleRegistration.cs" t="Include" />
+        </e>
+        <e p="KVDBLayer" t="Include">
+          <e p="ArtMemoryImplementation" t="Include">
+            <e p="ArtInMemoryKeyValueDB.cs" t="Include" />
+            <e p="ArtInMemoryKeyValueDBTransaction.cs" t="Include" />
+          </e>
+          <e p="BTree" t="Include">
+            <e p="BTreeBranch.cs" t="Include" />
+            <e p="BTreeLeaf.cs" t="Include" />
+            <e p="BTreeLeafComp.cs" t="Include" />
+            <e p="BTreeLeafMember.cs" t="Include" />
+            <e p="BTreeRoot.cs" t="Include" />
+            <e p="BTreeValue.cs" t="Include" />
+            <e p="CreateOrUpdateCtx.cs" t="Include" />
+            <e p="IBTreeLeafNode.cs" t="Include" />
+            <e p="IBTreeNode.cs" t="Include" />
+            <e p="IBTreeRootNode.cs" t="Include" />
+            <e p="NodeIdxPair.cs" t="Include" />
+            <e p="ReplaceValuesCtx.cs" t="Include" />
+          </e>
+          <e p="BTreeMem" t="Include">
+            <e p="BTreeBranch.cs" t="Include" />
+            <e p="BTreeLeaf.cs" t="Include" />
+            <e p="BTreeLeafComp.cs" t="Include" />
+            <e p="BTreeLeafMember.cs" t="Include" />
+            <e p="BTreeRoot.cs" t="Include" />
+            <e p="CreateOrUpdateCtx.cs" t="Include" />
+            <e p="IBTreeLeafNode.cs" t="Include" />
+            <e p="IBTreeNode.cs" t="Include" />
+            <e p="IBTreeRootNode.cs" t="Include" />
+            <e p="NodeIdxPair.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="ExtensionMethods.cs" t="Include" />
+            <e p="KeyValueDBExportImporter.cs" t="Include" />
+            <e p="PtrLenList.cs" t="Include" />
+          </e>
+          <e p="Implementation" t="Include">
+            <e p="BTreeKeyValueDB.cs" t="Include" />
+            <e p="BTreeKeyValueDBTransaction.cs" t="Include" />
+            <e p="BytesPerSecondLimiter.cs" t="Include" />
+            <e p="ChunkStorageInKV.cs" t="Include" />
+            <e p="Compactor.cs" t="Include" />
+            <e p="CompactorScheduler.cs" t="Include" />
+            <e p="FileCollectionWithFileInfos.cs" t="Include" />
+            <e p="FileKeyIndex.cs" t="Include" />
+            <e p="FilePureValues.cs" t="Include" />
+            <e p="FilePureValuesWithId.cs" t="Include" />
+            <e p="FileTransactionLog.cs" t="Include" />
+            <e p="HashKeyIndex.cs" t="Include" />
+            <e p="ICompactorScheduler.cs" t="Include" />
+            <e p="IDeleteFileCollectionStrategy.cs" t="Include" />
+            <e p="IFileCollectionWithFileInfos.cs" t="Include" />
+            <e p="IFileInfo.cs" t="Include" />
+            <e p="IFileTransactionLog.cs" t="Include" />
+            <e p="IHashKeyIndex.cs" t="Include" />
+            <e p="IKeyIndex.cs" t="Include" />
+            <e p="IKeyValueDBInternal.cs" t="Include" />
+            <e p="InMemoryFileCollection.cs" t="Include" />
+            <e p="IRootNodeInternal.cs" t="Include" />
+            <e p="JustDeleteFileCollectionStrategy.cs" t="Include" />
+            <e p="KeyIndexCompression.cs" t="Include" />
+            <e p="KeyIndexInfo.cs" t="Include" />
+            <e p="KeyValueDB.cs" t="Include" />
+            <e p="KeyValueDBOptions.cs" t="Include" />
+            <e p="KeyValueDBTransaction.cs" t="Include" />
+            <e p="KVCommandType.cs" t="Include" />
+            <e p="KVFileType.cs" t="Include" />
+            <e p="NoCompressionStrategy.cs" t="Include" />
+            <e p="OnDiskFileCollection.cs" t="Include" />
+            <e p="OnDiskMemoryMappedFileCollection.cs" t="Include" />
+            <e p="SnappyCompressionStrategy.cs" t="Include" />
+            <e p="UnknownFile.cs" t="Include" />
+          </e>
+          <e p="Interface" t="Include">
+            <e p="BTDBException.cs" t="Include" />
+            <e p="BTDBTransactionRetryException.cs" t="Include" />
+            <e p="FindResult.cs" t="Include" />
+            <e p="IChunkStorage.cs" t="Include" />
+            <e p="IChunkStorageTransaction.cs" t="Include" />
+            <e p="ICompressionStrategy.cs" t="Include" />
+            <e p="IFileCollection.cs" t="Include" />
+            <e p="IFileCollectionFile.cs" t="Include" />
+            <e p="IHaveSubDB.cs" t="Include" />
+            <e p="IKeyValueDB.cs" t="Include" />
+            <e p="IKeyValueDBLogger.cs" t="Include" />
+            <e p="IKeyValueDBTransaction.cs" t="Include" />
+          </e>
+          <e p="MemoryImplementation" t="Include">
+            <e p="InMemoryKeyValueDB.cs" t="Include" />
+            <e p="InMemoryKeyValueDBTransaction.cs" t="Include" />
+          </e>
+          <e p="ReaderWriters" t="Include">
+            <e p="KeyValueDBKeyReader.cs" t="Include" />
+            <e p="KeyValueDBValueReader.cs" t="Include" />
+            <e p="KeyValueDBValueWriter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="BTDB.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ODBLayer" t="Include">
+          <e p="ConcurrentDictionaryExtensions.cs" t="Include" />
+          <e p="DBObjectMetadata.cs" t="Include" />
+          <e p="DBObjectState.cs" t="Include" />
+          <e p="DBOptions.cs" t="Include" />
+          <e p="DBReaderCtx.cs" t="Include" />
+          <e p="DBWriterCtx.cs" t="Include" />
+          <e p="DefaultODBFieldHandlerFactory.cs" t="Include" />
+          <e p="FindUnusedKeysVisitor.cs" t="Include" />
+          <e p="IDBReaderCtx.cs" t="Include" />
+          <e p="IDBWriterCtx.cs" t="Include" />
+          <e p="IInstanceRegistry.cs" t="Include" />
+          <e p="IInternalObjectDBTransaction.cs" t="Include" />
+          <e p="InstanceRegistry.cs" t="Include" />
+          <e p="IObjectDB.cs" t="Include" />
+          <e p="IObjectDBLogger.cs" t="Include" />
+          <e p="IObjectDBTransaction.cs" t="Include" />
+          <e p="IODBVisitor.cs" t="Include" />
+          <e p="IOrderedDictionary.cs" t="Include" />
+          <e p="IPolymorphicTypesRegistry.cs" t="Include" />
+          <e p="IQuerySizeDictionary.cs" t="Include" />
+          <e p="IRelationInfoResolver.cs" t="Include" />
+          <e p="ITableInfoResolver.cs" t="Include" />
+          <e p="IType2NameRegistry.cs" t="Include" />
+          <e p="KeyValueDBTransactionProtector.cs" t="Include" />
+          <e p="NotStoredAttribute.cs" t="Include" />
+          <e p="ObjectDB.cs" t="Include" />
+          <e p="ObjectDBTransaction.cs" t="Include" />
+          <e p="ODBDictionary.cs" t="Include" />
+          <e p="ODBDictionaryConfiguration.cs" t="Include" />
+          <e p="ODBDictionaryFieldHandler.cs" t="Include" />
+          <e p="ODBIterator.cs" t="Include" />
+          <e p="ODBIteratorRelationInfo.cs" t="Include" />
+          <e p="PolymorphicTypesRegistry.cs" t="Include" />
+          <e p="PrimaryKeyAttribute.cs" t="Include" />
+          <e p="ReferenceEqualityComparer.cs" t="Include" />
+          <e p="RelationBuilder.cs" t="Include" />
+          <e p="RelationDBManipulator.cs" t="Include" />
+          <e p="RelationEnumerator.cs" t="Include" />
+          <e p="RelationInfo.cs" t="Include" />
+          <e p="RelationsInfo.cs" t="Include" />
+          <e p="RelationVersionInfo.cs" t="Include" />
+          <e p="SecondaryKeyAttribute.cs" t="Include" />
+          <e p="StoredInlineAttribute.cs" t="Include" />
+          <e p="TableFieldInfo.cs" t="Include" />
+          <e p="TableIdVersionId.cs" t="Include" />
+          <e p="TableInfo.cs" t="Include" />
+          <e p="TablesInfo.cs" t="Include" />
+          <e p="TableVersionInfo.cs" t="Include" />
+          <e p="Type2NameRegistry.cs" t="Include" />
+          <e p="UniqueIndexAttribute.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Reactive" t="Include">
+          <e p="AnonymousObserver.cs" t="Include" />
+          <e p="FastBehaviourSubject.cs" t="Include" />
+          <e p="FastSubject.cs" t="Include" />
+          <e p="FastSubjectHelpers.cs" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="ClientBindInf.cs" t="Include" />
+          <e p="DefaultServiceFieldHandlerFactory.cs" t="Include" />
+          <e p="IChannel.cs" t="Include" />
+          <e p="IServer.cs" t="Include" />
+          <e p="IService.cs" t="Include" />
+          <e p="IServiceClient.cs" t="Include" />
+          <e p="IServiceInternal.cs" t="Include" />
+          <e p="IServiceInternalClient.cs" t="Include" />
+          <e p="IServiceInternalServer.cs" t="Include" />
+          <e p="IServiceServer.cs" t="Include" />
+          <e p="ITcpIpChannel.cs" t="Include" />
+          <e p="MethodInf.cs" t="Include" />
+          <e p="NumberAllocator.cs" t="Include" />
+          <e p="ParameterInf.cs" t="Include" />
+          <e p="PipedTwoChannels.cs" t="Include" />
+          <e p="PropertyInf.cs" t="Include" />
+          <e p="ServerBindInf.cs" t="Include" />
+          <e p="Service.cs" t="Include" />
+          <e p="ServiceObjectFieldHandler.cs" t="Include" />
+          <e p="ServiceReaderCtx.cs" t="Include" />
+          <e p="ServiceWriterCtx.cs" t="Include" />
+          <e p="TaskWithSource.cs" t="Include" />
+          <e p="TcpipClient.cs" t="Include" />
+          <e p="TcpipServer.cs" t="Include" />
+          <e p="TypeInf.cs" t="Include" />
+        </e>
+        <e p="SnappyCompression" t="Include">
+          <e p="SnappyCompress.cs" t="Include" />
+          <e p="SnappyDecompress.cs" t="Include" />
+        </e>
+        <e p="StreamLayer" t="Include">
+          <e p="AbstractBufferedReader.cs" t="Include" />
+          <e p="AbstractBufferedWriter.cs" t="Include" />
+          <e p="ByteArrayReader.cs" t="Include" />
+          <e p="ByteBufferReader.cs" t="Include" />
+          <e p="ByteBufferWriter.cs" t="Include" />
+          <e p="ICanMemorizePosition.cs" t="Include" />
+          <e p="IMemorizedPosition.cs" t="Include" />
+          <e p="IPlatformMethods.cs" t="Include" />
+          <e p="IPositionLessStream.cs" t="Include" />
+          <e p="LoggingPositionLessStream.cs" t="Include" />
+          <e p="MemoryPositionLessStream.cs" t="Include" />
+          <e p="PlatformMethods.cs" t="Include" />
+          <e p="PositionLessFileStreamProxy.cs" t="Include" />
+          <e p="PositionLessStreamProxy.cs" t="Include" />
+          <e p="PositionLessStreamReader.cs" t="Include" />
+          <e p="PositionLessStreamWriter.cs" t="Include" />
+          <e p="PosixPlatformMethods.cs" t="Include" />
+          <e p="WindowsPlatformMethods.cs" t="Include" />
+        </e>
+      </e>
       <e p="BTDBBenchmarks" t="IncludeRecursive">
         <e p="Benchmarks" t="Include">
           <e p="Listing.cs" t="Include" />

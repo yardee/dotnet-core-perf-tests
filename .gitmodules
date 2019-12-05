@@ -1,0 +1,3 @@
+[submodule "BTDB"]
+	path = BTDB
+	url = https://github.com/Bobris/BTDB.git

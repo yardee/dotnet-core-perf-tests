@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTDBBenchmarks", "BTDBBenchmarks\BTDBBenchmarks.csproj", "{E3172AC5-0490-417B-B643-A046FF1F8573}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTDB", "BTDB\BTDB\BTDB.csproj", "{B5E7070A-2195-4C9D-87B7-B6C0C3E6EE8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E3172AC5-0490-417B-B643-A046FF1F8573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3172AC5-0490-417B-B643-A046FF1F8573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3172AC5-0490-417B-B643-A046FF1F8573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E7070A-2195-4C9D-87B7-B6C0C3E6EE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E7070A-2195-4C9D-87B7-B6C0C3E6EE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E7070A-2195-4C9D-87B7-B6C0C3E6EE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E7070A-2195-4C9D-87B7-B6C0C3E6EE8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
